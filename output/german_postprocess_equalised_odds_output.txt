@@ -1,0 +1,71 @@
+(1000, 62)
+#### Training Dataset shape
+(700, 61)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['duration', 'installment_rate', 'resident_since', 'num_credits', 'people_maintenance', 'AGE', 'CREDIT_AMNT', 'account_status=X1', 'account_status=X2', 'account_status=X3', 'account_status=X4', 'credit_history=X1', 'credit_history=X2', 'credit_history=X3', 'credit_history=X4', 'credit_history=X5', 'purpose=X1', 'purpose=X10', 'purpose=X2', 'purpose=X3', 'purpose=X4', 'purpose=X5', 'purpose=X6', 'purpose=X7', 'purpose=X8', 'purpose=X9', 'savings=X1', 'savings=X2', 'savings=X3', 'savings=X4', 'savings=X5', 'employment=X1', 'employment=X2', 'employment=X3', 'employment=X4', 'employment=X5', 'status_gender=X1', 'status_gender=X2', 'status_gender=X3', 'status_gender=X4', 'guarantors=X1', 'guarantors=X2', 'guarantors=X3', 'property=X1', 'property=X2', 'property=X3', 'property=X4', 'other_plans=X1', 'other_plans=X2', 'other_plans=X3', 'housing=X1', 'housing=X2', 'housing=X3', 'job=X1', 'job=X2', 'job=X3', 'job=X4', 'phone=X1', 'phone=X2', 'foreign=X1', 'foreign=X2']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.145807
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.090054
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.240000
+#### Original-Predicted training dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.036375162816349615
+Difference in GFNR between unprivileged and privileged groups
+0.12551464441016766
+#### Original-Predicted validation dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.1955972081646165
+Difference in GFNR between unprivileged and privileged groups
+0.15295074686852755
+#### Original-Predicted testing dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.18972458932435832
+Difference in GFNR between unprivileged and privileged groups
+0.12183303091889464
+Balanced accuracy = 0.5411
+Statistical parity difference = -0.1760
+Disparate impact = 0.7944
+Average odds difference = -0.1649
+Equal opportunity difference = -0.1167
+Theil index = 0.1614
+Profit: 23388805.600000013
+Profit Per Loan: 155925.37066666674
+Profit Per EUR: 53.170031394426324
+#### Original-Transformed validation dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.30445602409960876
+Difference in GFNR between unprivileged and privileged groups
+0.05039177121340033
+#### Original-Transformed testing dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.19417961106476178
+Difference in GFNR between unprivileged and privileged groups
+0.02639941228672421
+Balanced accuracy = 0.5374
+Statistical parity difference = -0.3200
+Disparate impact = 0.6800
+Average odds difference = -0.3173
+Equal opportunity difference = -0.2500
+Theil index = 0.0774
+Profit: 36987355.60000002
+Profit Per Loan: 246582.37066666677
+Profit Per EUR: 84.08376605810132
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: -0.68%
+Statistical parity difference: 81.82%
+Disparate impact: -14.40%
+Average odds difference: 92.39%
+Equal opportunity difference: 114.29%
+Theil index: -52.06%
+
+Profit Percentage Change: 58.14%
+#### Classification thresholds used for validation and parameter selection

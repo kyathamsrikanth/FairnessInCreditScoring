@@ -1,0 +1,56 @@
+(1000, 62)
+#### Training Dataset shape
+(700, 61)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['duration', 'installment_rate', 'resident_since', 'num_credits', 'people_maintenance', 'AGE', 'CREDIT_AMNT', 'account_status=X1', 'account_status=X2', 'account_status=X3', 'account_status=X4', 'credit_history=X1', 'credit_history=X2', 'credit_history=X3', 'credit_history=X4', 'credit_history=X5', 'purpose=X1', 'purpose=X10', 'purpose=X2', 'purpose=X3', 'purpose=X4', 'purpose=X5', 'purpose=X6', 'purpose=X7', 'purpose=X8', 'purpose=X9', 'savings=X1', 'savings=X2', 'savings=X3', 'savings=X4', 'savings=X5', 'employment=X1', 'employment=X2', 'employment=X3', 'employment=X4', 'employment=X5', 'status_gender=X1', 'status_gender=X2', 'status_gender=X3', 'status_gender=X4', 'guarantors=X1', 'guarantors=X2', 'guarantors=X3', 'property=X1', 'property=X2', 'property=X3', 'property=X4', 'other_plans=X1', 'other_plans=X2', 'other_plans=X3', 'housing=X1', 'housing=X2', 'housing=X3', 'job=X1', 'job=X2', 'job=X3', 'job=X4', 'phone=X1', 'phone=X2', 'foreign=X1', 'foreign=X2']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.121091
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.192000
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.233126
+#### Algorithm without debiasing
+Test set: Classification accuracy = 0.660
+Test set: Balanced classification accuracy = 0.450
+Test set: Disparate impact = 0.828
+Test set: False discovery rate ratio = 0.458
+Balanced accuracy = 0.4500
+Statistical parity difference = -0.1475
+Disparate impact = 0.8280
+Average odds difference = -0.0864
+Equal opportunity difference = -0.0904
+Theil index = 0.1221
+Profit: 45923749.60000002
+Profit Per Loan: 306158.3306666668
+Profit Per EUR: 99.09191060015627
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.147
+#### Algorithm with debiasing
+Test set: Classification accuracy = 0.660
+Test set: Balanced classification accuracy = 0.450
+Test set: Disparate impact = 0.828
+Test set: False discovery rate ratio = 0.458
+Balanced accuracy = 0.4500
+Statistical parity difference = -0.1475
+Disparate impact = 0.8280
+Average odds difference = -0.0864
+Equal opportunity difference = -0.0904
+Theil index = 0.1221
+Profit: 45923749.60000002
+Profit Per Loan: 306158.3306666668
+Profit Per EUR: 99.09191060015627
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: 0.00%
+Statistical parity difference: -0.00%
+Disparate impact: 0.00%
+Average odds difference: -0.00%
+Equal opportunity difference: -0.00%
+Theil index: 0.00%
+
+Profit Percentage Change: 0.00%

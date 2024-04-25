@@ -1,0 +1,578 @@
+(150000, 69)
+#### Training Dataset shape
+(105000, 68)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['UnknownNumberOfDependents', 'UnknownMonthlyIncome', 'NoDependents', 'NoIncome', 'ZeroDebtRatio', 'UnknownIncomeDebtRatio', 'WeirdRevolvingUtilization', 'ZeroRevolvingUtilization', 'Log.Debt', 'RevolvingLines', 'HasRevolvingLines', 'HasRealEstateLoans', 'HasMultipleRealEstateLoans', 'EligibleSS', 'DTIOver33', 'DTIOver43', 'DisposableIncome', 'RevolvingToRealEstate', 'NumberOfTime30.59DaysPastDueNotWorseLarge', 'NumberOfTime30.59DaysPastDueNotWorse96', 'Never30.59DaysPastDueNotWorse', 'Never60.89DaysPastDueNotWorse', 'Never90DaysLate', 'IncomeDivBy10', 'IncomeDivBy100', 'IncomeDivBy1000', 'IncomeDivBy5000', 'Weird0999Utilization', 'FullUtilization', 'ExcessUtilization', 'NumberOfTime30.89DaysPastDueNotWorse', 'Never30.89DaysPastDueNotWorse', 'NeverPastDue', 'Log.RevolvingUtilizationTimesLines', 'Log.RevolvingUtilizationOfUnsecuredLines', 'DelinquenciesPerLine', 'MajorDelinquenciesPerLine', 'MinorDelinquenciesPerLine', 'DelinquenciesPerRevolvingLine', 'MajorDelinquenciesPerRevolvingLine', 'MinorDelinquenciesPerRevolvingLine', 'Log.DebtPerLine', 'Log.DebtPerRealEstateLine', 'Log.DebtPerPerson', 'RevolvingLinesPerPerson', 'RealEstateLoansPerPerson', 'YearsOfAgePerDependent', 'Log.MonthlyIncome', 'Log.IncomePerPerson', 'Log.NumberOfTimesPastDue', 'Log.NumberOfTimes90DaysLate', 'Log.NumberOfTime30.59DaysPastDueNotWorse', 'Log.NumberOfTime60.89DaysPastDueNotWorse', 'Log.Ratio90to30.59DaysLate', 'Log.Ratio90to60.89DaysLate', 'AnyOpenCreditLinesOrLoans', 'Log.NumberOfOpenCreditLinesAndLoans', 'Log.NumberOfOpenCreditLinesAndLoansPerPerson', 'Has.Dependents', 'Log.HouseholdSize', 'Log.DebtRatio', 'Log.UnknownIncomeDebtRatio', 'Log.UnknownIncomeDebtRatioPerPerson', 'Log.UnknownIncomeDebtRatioPerLine', 'Log.UnknownIncomeDebtRatioPerRealEstateLine', 'Log.NumberRealEstateLoansOrLines', 'CREDIT_AMNT', 'AGE']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.047937
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.054688
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.025880
+#### Scaled dataset - Verify that the scaling does not affect the group label statistics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = -0.047937
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.025880
+epoch 0; iter: 0; batch classifier loss: 1.101886
+epoch 0; iter: 200; batch classifier loss: 0.213022
+epoch 0; iter: 400; batch classifier loss: 0.188860
+epoch 0; iter: 600; batch classifier loss: 0.205992
+epoch 0; iter: 800; batch classifier loss: 0.143224
+epoch 1; iter: 0; batch classifier loss: 0.141900
+epoch 1; iter: 200; batch classifier loss: 0.260275
+epoch 1; iter: 400; batch classifier loss: 0.210437
+epoch 1; iter: 600; batch classifier loss: 0.160735
+epoch 1; iter: 800; batch classifier loss: 0.299683
+epoch 2; iter: 0; batch classifier loss: 0.192135
+epoch 2; iter: 200; batch classifier loss: 0.286317
+epoch 2; iter: 400; batch classifier loss: 0.212714
+epoch 2; iter: 600; batch classifier loss: 0.255425
+epoch 2; iter: 800; batch classifier loss: 0.083703
+epoch 3; iter: 0; batch classifier loss: 0.116797
+epoch 3; iter: 200; batch classifier loss: 0.220117
+epoch 3; iter: 400; batch classifier loss: 0.248354
+epoch 3; iter: 600; batch classifier loss: 0.157190
+epoch 3; iter: 800; batch classifier loss: 0.176410
+epoch 4; iter: 0; batch classifier loss: 0.252722
+epoch 4; iter: 200; batch classifier loss: 0.136685
+epoch 4; iter: 400; batch classifier loss: 0.232100
+epoch 4; iter: 600; batch classifier loss: 0.189498
+epoch 4; iter: 800; batch classifier loss: 0.192836
+epoch 5; iter: 0; batch classifier loss: 0.227710
+epoch 5; iter: 200; batch classifier loss: 0.110938
+epoch 5; iter: 400; batch classifier loss: 0.186987
+epoch 5; iter: 600; batch classifier loss: 0.231249
+epoch 5; iter: 800; batch classifier loss: 0.120845
+epoch 6; iter: 0; batch classifier loss: 0.140990
+epoch 6; iter: 200; batch classifier loss: 0.193045
+epoch 6; iter: 400; batch classifier loss: 0.186679
+epoch 6; iter: 600; batch classifier loss: 0.135403
+epoch 6; iter: 800; batch classifier loss: 0.335143
+epoch 7; iter: 0; batch classifier loss: 0.129051
+epoch 7; iter: 200; batch classifier loss: 0.164666
+epoch 7; iter: 400; batch classifier loss: 0.154047
+epoch 7; iter: 600; batch classifier loss: 0.120288
+epoch 7; iter: 800; batch classifier loss: 0.242957
+epoch 8; iter: 0; batch classifier loss: 0.154444
+epoch 8; iter: 200; batch classifier loss: 0.174139
+epoch 8; iter: 400; batch classifier loss: 0.106590
+epoch 8; iter: 600; batch classifier loss: 0.209896
+epoch 8; iter: 800; batch classifier loss: 0.203482
+epoch 9; iter: 0; batch classifier loss: 0.270296
+epoch 9; iter: 200; batch classifier loss: 0.191494
+epoch 9; iter: 400; batch classifier loss: 0.123351
+epoch 9; iter: 600; batch classifier loss: 0.221045
+epoch 9; iter: 800; batch classifier loss: 0.203044
+epoch 10; iter: 0; batch classifier loss: 0.208644
+epoch 10; iter: 200; batch classifier loss: 0.182007
+epoch 10; iter: 400; batch classifier loss: 0.162239
+epoch 10; iter: 600; batch classifier loss: 0.152616
+epoch 10; iter: 800; batch classifier loss: 0.144832
+epoch 11; iter: 0; batch classifier loss: 0.154092
+epoch 11; iter: 200; batch classifier loss: 0.214021
+epoch 11; iter: 400; batch classifier loss: 0.107486
+epoch 11; iter: 600; batch classifier loss: 0.144694
+epoch 11; iter: 800; batch classifier loss: 0.311108
+epoch 12; iter: 0; batch classifier loss: 0.228489
+epoch 12; iter: 200; batch classifier loss: 0.183901
+epoch 12; iter: 400; batch classifier loss: 0.136952
+epoch 12; iter: 600; batch classifier loss: 0.144447
+epoch 12; iter: 800; batch classifier loss: 0.141323
+epoch 13; iter: 0; batch classifier loss: 0.169520
+epoch 13; iter: 200; batch classifier loss: 0.173128
+epoch 13; iter: 400; batch classifier loss: 0.194977
+epoch 13; iter: 600; batch classifier loss: 0.196532
+epoch 13; iter: 800; batch classifier loss: 0.208128
+epoch 14; iter: 0; batch classifier loss: 0.150270
+epoch 14; iter: 200; batch classifier loss: 0.228690
+epoch 14; iter: 400; batch classifier loss: 0.151974
+epoch 14; iter: 600; batch classifier loss: 0.197085
+epoch 14; iter: 800; batch classifier loss: 0.197781
+epoch 15; iter: 0; batch classifier loss: 0.138700
+epoch 15; iter: 200; batch classifier loss: 0.142374
+epoch 15; iter: 400; batch classifier loss: 0.164583
+epoch 15; iter: 600; batch classifier loss: 0.173917
+epoch 15; iter: 800; batch classifier loss: 0.230302
+epoch 16; iter: 0; batch classifier loss: 0.173202
+epoch 16; iter: 200; batch classifier loss: 0.115664
+epoch 16; iter: 400; batch classifier loss: 0.120312
+epoch 16; iter: 600; batch classifier loss: 0.187161
+epoch 16; iter: 800; batch classifier loss: 0.185735
+epoch 17; iter: 0; batch classifier loss: 0.165918
+epoch 17; iter: 200; batch classifier loss: 0.201172
+epoch 17; iter: 400; batch classifier loss: 0.157072
+epoch 17; iter: 600; batch classifier loss: 0.274999
+epoch 17; iter: 800; batch classifier loss: 0.185600
+epoch 18; iter: 0; batch classifier loss: 0.134606
+epoch 18; iter: 200; batch classifier loss: 0.163337
+epoch 18; iter: 400; batch classifier loss: 0.170115
+epoch 18; iter: 600; batch classifier loss: 0.218042
+epoch 18; iter: 800; batch classifier loss: 0.183148
+epoch 19; iter: 0; batch classifier loss: 0.143175
+epoch 19; iter: 200; batch classifier loss: 0.148833
+epoch 19; iter: 400; batch classifier loss: 0.169184
+epoch 19; iter: 600; batch classifier loss: 0.143441
+epoch 19; iter: 800; batch classifier loss: 0.071963
+epoch 20; iter: 0; batch classifier loss: 0.169571
+epoch 20; iter: 200; batch classifier loss: 0.149996
+epoch 20; iter: 400; batch classifier loss: 0.164929
+epoch 20; iter: 600; batch classifier loss: 0.148236
+epoch 20; iter: 800; batch classifier loss: 0.215712
+epoch 21; iter: 0; batch classifier loss: 0.224676
+epoch 21; iter: 200; batch classifier loss: 0.159764
+epoch 21; iter: 400; batch classifier loss: 0.128020
+epoch 21; iter: 600; batch classifier loss: 0.181943
+epoch 21; iter: 800; batch classifier loss: 0.233148
+epoch 22; iter: 0; batch classifier loss: 0.120729
+epoch 22; iter: 200; batch classifier loss: 0.244326
+epoch 22; iter: 400; batch classifier loss: 0.146677
+epoch 22; iter: 600; batch classifier loss: 0.237229
+epoch 22; iter: 800; batch classifier loss: 0.120154
+epoch 23; iter: 0; batch classifier loss: 0.194723
+epoch 23; iter: 200; batch classifier loss: 0.218431
+epoch 23; iter: 400; batch classifier loss: 0.223632
+epoch 23; iter: 600; batch classifier loss: 0.179946
+epoch 23; iter: 800; batch classifier loss: 0.291704
+epoch 24; iter: 0; batch classifier loss: 0.239959
+epoch 24; iter: 200; batch classifier loss: 0.156661
+epoch 24; iter: 400; batch classifier loss: 0.116505
+epoch 24; iter: 600; batch classifier loss: 0.180564
+epoch 24; iter: 800; batch classifier loss: 0.126948
+epoch 25; iter: 0; batch classifier loss: 0.111189
+epoch 25; iter: 200; batch classifier loss: 0.147884
+epoch 25; iter: 400; batch classifier loss: 0.198446
+epoch 25; iter: 600; batch classifier loss: 0.112253
+epoch 25; iter: 800; batch classifier loss: 0.161900
+epoch 26; iter: 0; batch classifier loss: 0.226403
+epoch 26; iter: 200; batch classifier loss: 0.208526
+epoch 26; iter: 400; batch classifier loss: 0.190946
+epoch 26; iter: 600; batch classifier loss: 0.144363
+epoch 26; iter: 800; batch classifier loss: 0.114747
+epoch 27; iter: 0; batch classifier loss: 0.170215
+epoch 27; iter: 200; batch classifier loss: 0.080444
+epoch 27; iter: 400; batch classifier loss: 0.213126
+epoch 27; iter: 600; batch classifier loss: 0.128502
+epoch 27; iter: 800; batch classifier loss: 0.172129
+epoch 28; iter: 0; batch classifier loss: 0.198039
+epoch 28; iter: 200; batch classifier loss: 0.210461
+epoch 28; iter: 400; batch classifier loss: 0.151951
+epoch 28; iter: 600; batch classifier loss: 0.211843
+epoch 28; iter: 800; batch classifier loss: 0.184913
+epoch 29; iter: 0; batch classifier loss: 0.152086
+epoch 29; iter: 200; batch classifier loss: 0.194822
+epoch 29; iter: 400; batch classifier loss: 0.261817
+epoch 29; iter: 600; batch classifier loss: 0.183696
+epoch 29; iter: 800; batch classifier loss: 0.314356
+epoch 30; iter: 0; batch classifier loss: 0.212560
+epoch 30; iter: 200; batch classifier loss: 0.216245
+epoch 30; iter: 400; batch classifier loss: 0.234418
+epoch 30; iter: 600; batch classifier loss: 0.221534
+epoch 30; iter: 800; batch classifier loss: 0.206783
+epoch 31; iter: 0; batch classifier loss: 0.247472
+epoch 31; iter: 200; batch classifier loss: 0.196224
+epoch 31; iter: 400; batch classifier loss: 0.098906
+epoch 31; iter: 600; batch classifier loss: 0.206299
+epoch 31; iter: 800; batch classifier loss: 0.122000
+epoch 32; iter: 0; batch classifier loss: 0.133553
+epoch 32; iter: 200; batch classifier loss: 0.148515
+epoch 32; iter: 400; batch classifier loss: 0.161983
+epoch 32; iter: 600; batch classifier loss: 0.100203
+epoch 32; iter: 800; batch classifier loss: 0.203192
+epoch 33; iter: 0; batch classifier loss: 0.167094
+epoch 33; iter: 200; batch classifier loss: 0.234617
+epoch 33; iter: 400; batch classifier loss: 0.159958
+epoch 33; iter: 600; batch classifier loss: 0.158924
+epoch 33; iter: 800; batch classifier loss: 0.234159
+epoch 34; iter: 0; batch classifier loss: 0.142917
+epoch 34; iter: 200; batch classifier loss: 0.160342
+epoch 34; iter: 400; batch classifier loss: 0.169466
+epoch 34; iter: 600; batch classifier loss: 0.116435
+epoch 34; iter: 800; batch classifier loss: 0.199141
+epoch 35; iter: 0; batch classifier loss: 0.139218
+epoch 35; iter: 200; batch classifier loss: 0.144566
+epoch 35; iter: 400; batch classifier loss: 0.166779
+epoch 35; iter: 600; batch classifier loss: 0.164018
+epoch 35; iter: 800; batch classifier loss: 0.145984
+epoch 36; iter: 0; batch classifier loss: 0.102679
+epoch 36; iter: 200; batch classifier loss: 0.165888
+epoch 36; iter: 400; batch classifier loss: 0.207545
+epoch 36; iter: 600; batch classifier loss: 0.151924
+epoch 36; iter: 800; batch classifier loss: 0.111281
+epoch 37; iter: 0; batch classifier loss: 0.123430
+epoch 37; iter: 200; batch classifier loss: 0.152419
+epoch 37; iter: 400; batch classifier loss: 0.141751
+epoch 37; iter: 600; batch classifier loss: 0.197476
+epoch 37; iter: 800; batch classifier loss: 0.112337
+epoch 38; iter: 0; batch classifier loss: 0.138532
+epoch 38; iter: 200; batch classifier loss: 0.147968
+epoch 38; iter: 400; batch classifier loss: 0.222567
+epoch 38; iter: 600; batch classifier loss: 0.142556
+epoch 38; iter: 800; batch classifier loss: 0.210684
+epoch 39; iter: 0; batch classifier loss: 0.195753
+epoch 39; iter: 200; batch classifier loss: 0.166753
+epoch 39; iter: 400; batch classifier loss: 0.154858
+epoch 39; iter: 600; batch classifier loss: 0.278151
+epoch 39; iter: 800; batch classifier loss: 0.197974
+epoch 40; iter: 0; batch classifier loss: 0.168894
+epoch 40; iter: 200; batch classifier loss: 0.180569
+epoch 40; iter: 400; batch classifier loss: 0.148254
+epoch 40; iter: 600; batch classifier loss: 0.207040
+epoch 40; iter: 800; batch classifier loss: 0.172291
+epoch 41; iter: 0; batch classifier loss: 0.192435
+epoch 41; iter: 200; batch classifier loss: 0.248568
+epoch 41; iter: 400; batch classifier loss: 0.210225
+epoch 41; iter: 600; batch classifier loss: 0.142274
+epoch 41; iter: 800; batch classifier loss: 0.215208
+epoch 42; iter: 0; batch classifier loss: 0.174048
+epoch 42; iter: 200; batch classifier loss: 0.191174
+epoch 42; iter: 400; batch classifier loss: 0.161108
+epoch 42; iter: 600; batch classifier loss: 0.124297
+epoch 42; iter: 800; batch classifier loss: 0.136233
+epoch 43; iter: 0; batch classifier loss: 0.141850
+epoch 43; iter: 200; batch classifier loss: 0.182036
+epoch 43; iter: 400; batch classifier loss: 0.142672
+epoch 43; iter: 600; batch classifier loss: 0.189566
+epoch 43; iter: 800; batch classifier loss: 0.224924
+epoch 44; iter: 0; batch classifier loss: 0.134964
+epoch 44; iter: 200; batch classifier loss: 0.273125
+epoch 44; iter: 400; batch classifier loss: 0.132685
+epoch 44; iter: 600; batch classifier loss: 0.127567
+epoch 44; iter: 800; batch classifier loss: 0.151032
+epoch 45; iter: 0; batch classifier loss: 0.099712
+epoch 45; iter: 200; batch classifier loss: 0.123557
+epoch 45; iter: 400; batch classifier loss: 0.155433
+epoch 45; iter: 600; batch classifier loss: 0.148677
+epoch 45; iter: 800; batch classifier loss: 0.193681
+epoch 46; iter: 0; batch classifier loss: 0.280363
+epoch 46; iter: 200; batch classifier loss: 0.202636
+epoch 46; iter: 400; batch classifier loss: 0.132730
+epoch 46; iter: 600; batch classifier loss: 0.185652
+epoch 46; iter: 800; batch classifier loss: 0.172537
+epoch 47; iter: 0; batch classifier loss: 0.171107
+epoch 47; iter: 200; batch classifier loss: 0.178797
+epoch 47; iter: 400; batch classifier loss: 0.177911
+epoch 47; iter: 600; batch classifier loss: 0.285398
+epoch 47; iter: 800; batch classifier loss: 0.189614
+epoch 48; iter: 0; batch classifier loss: 0.192393
+epoch 48; iter: 200; batch classifier loss: 0.189632
+epoch 48; iter: 400; batch classifier loss: 0.307810
+epoch 48; iter: 600; batch classifier loss: 0.167751
+epoch 48; iter: 800; batch classifier loss: 0.127148
+epoch 49; iter: 0; batch classifier loss: 0.207718
+epoch 49; iter: 200; batch classifier loss: 0.211604
+epoch 49; iter: 400; batch classifier loss: 0.055760
+epoch 49; iter: 600; batch classifier loss: 0.159403
+epoch 49; iter: 800; batch classifier loss: 0.197637
+#### Plain model - without debiasing - dataset metrics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = -0.026534
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.012999
+#### Plain model - without debiasing - classification metrics
+Test set: Classification accuracy = 0.935244
+Test set: Balanced classification accuracy = 0.595234
+Test set: Disparate impact = 0.986687
+Test set: Equal opportunity difference = -0.012126
+Test set: Average odds difference = 0.009638
+Test set: Theil_index = 0.028937
+epoch 0; iter: 0; batch classifier loss: 0.616182; batch adversarial loss: 0.549956
+epoch 0; iter: 200; batch classifier loss: 1.633295; batch adversarial loss: 0.583519
+epoch 0; iter: 400; batch classifier loss: 1.935310; batch adversarial loss: 0.515100
+epoch 0; iter: 600; batch classifier loss: 2.316274; batch adversarial loss: 0.476924
+epoch 0; iter: 800; batch classifier loss: 2.554016; batch adversarial loss: 0.385862
+epoch 1; iter: 0; batch classifier loss: 2.488430; batch adversarial loss: 0.400202
+epoch 1; iter: 200; batch classifier loss: 2.763305; batch adversarial loss: 0.354109
+epoch 1; iter: 400; batch classifier loss: 2.794603; batch adversarial loss: 0.306238
+epoch 1; iter: 600; batch classifier loss: 2.634360; batch adversarial loss: 0.297521
+epoch 1; iter: 800; batch classifier loss: 2.807059; batch adversarial loss: 0.258519
+epoch 2; iter: 0; batch classifier loss: 2.783830; batch adversarial loss: 0.256016
+epoch 2; iter: 200; batch classifier loss: 2.674614; batch adversarial loss: 0.220179
+epoch 2; iter: 400; batch classifier loss: 0.290452; batch adversarial loss: 0.176548
+epoch 2; iter: 600; batch classifier loss: 0.215146; batch adversarial loss: 0.141347
+epoch 2; iter: 800; batch classifier loss: 0.308279; batch adversarial loss: 0.087971
+epoch 3; iter: 0; batch classifier loss: 0.262408; batch adversarial loss: 0.158777
+epoch 3; iter: 200; batch classifier loss: 0.724760; batch adversarial loss: 0.132603
+epoch 3; iter: 400; batch classifier loss: 1.696734; batch adversarial loss: 0.164451
+epoch 3; iter: 600; batch classifier loss: 1.915566; batch adversarial loss: 0.169352
+epoch 3; iter: 800; batch classifier loss: 2.337494; batch adversarial loss: 0.191375
+epoch 4; iter: 0; batch classifier loss: 2.379716; batch adversarial loss: 0.110733
+epoch 4; iter: 200; batch classifier loss: 2.499772; batch adversarial loss: 0.155228
+epoch 4; iter: 400; batch classifier loss: 2.710037; batch adversarial loss: 0.121247
+epoch 4; iter: 600; batch classifier loss: 2.756814; batch adversarial loss: 0.181881
+epoch 4; iter: 800; batch classifier loss: 2.604232; batch adversarial loss: 0.147635
+epoch 5; iter: 0; batch classifier loss: 2.545042; batch adversarial loss: 0.170419
+epoch 5; iter: 200; batch classifier loss: 2.145370; batch adversarial loss: 0.187130
+epoch 5; iter: 400; batch classifier loss: 0.784746; batch adversarial loss: 0.061488
+epoch 5; iter: 600; batch classifier loss: 0.871185; batch adversarial loss: 0.104643
+epoch 5; iter: 800; batch classifier loss: 0.637300; batch adversarial loss: 0.099173
+epoch 6; iter: 0; batch classifier loss: 0.615827; batch adversarial loss: 0.098883
+epoch 6; iter: 200; batch classifier loss: 0.706214; batch adversarial loss: 0.071515
+epoch 6; iter: 400; batch classifier loss: 1.233576; batch adversarial loss: 0.075436
+epoch 6; iter: 600; batch classifier loss: 0.968042; batch adversarial loss: 0.066749
+epoch 6; iter: 800; batch classifier loss: 0.639076; batch adversarial loss: 0.147127
+epoch 7; iter: 0; batch classifier loss: 0.724793; batch adversarial loss: 0.040950
+epoch 7; iter: 200; batch classifier loss: 0.238807; batch adversarial loss: 0.088096
+epoch 7; iter: 400; batch classifier loss: 0.159868; batch adversarial loss: 0.049523
+epoch 7; iter: 600; batch classifier loss: 0.223135; batch adversarial loss: 0.141744
+epoch 7; iter: 800; batch classifier loss: 0.198090; batch adversarial loss: 0.024965
+epoch 8; iter: 0; batch classifier loss: 0.211303; batch adversarial loss: 0.114175
+epoch 8; iter: 200; batch classifier loss: 0.101144; batch adversarial loss: 0.202723
+epoch 8; iter: 400; batch classifier loss: 0.189129; batch adversarial loss: 0.167274
+epoch 8; iter: 600; batch classifier loss: 0.095474; batch adversarial loss: 0.112952
+epoch 8; iter: 800; batch classifier loss: 0.191644; batch adversarial loss: 0.136775
+epoch 9; iter: 0; batch classifier loss: 0.164553; batch adversarial loss: 0.052205
+epoch 9; iter: 200; batch classifier loss: 0.209136; batch adversarial loss: 0.052785
+epoch 9; iter: 400; batch classifier loss: 0.218275; batch adversarial loss: 0.083265
+epoch 9; iter: 600; batch classifier loss: 0.191716; batch adversarial loss: 0.107427
+epoch 9; iter: 800; batch classifier loss: 0.241213; batch adversarial loss: 0.051860
+epoch 10; iter: 0; batch classifier loss: 0.140195; batch adversarial loss: 0.020175
+epoch 10; iter: 200; batch classifier loss: 0.177167; batch adversarial loss: 0.051411
+epoch 10; iter: 400; batch classifier loss: 0.275437; batch adversarial loss: 0.071839
+epoch 10; iter: 600; batch classifier loss: 0.136336; batch adversarial loss: 0.049268
+epoch 10; iter: 800; batch classifier loss: 0.141566; batch adversarial loss: 0.081488
+epoch 11; iter: 0; batch classifier loss: 0.162957; batch adversarial loss: 0.111230
+epoch 11; iter: 200; batch classifier loss: 0.163758; batch adversarial loss: 0.021131
+epoch 11; iter: 400; batch classifier loss: 0.225214; batch adversarial loss: 0.051554
+epoch 11; iter: 600; batch classifier loss: 0.176476; batch adversarial loss: 0.079554
+epoch 11; iter: 800; batch classifier loss: 0.180931; batch adversarial loss: 0.143834
+epoch 12; iter: 0; batch classifier loss: 0.223709; batch adversarial loss: 0.140844
+epoch 12; iter: 200; batch classifier loss: 0.298639; batch adversarial loss: 0.105194
+epoch 12; iter: 400; batch classifier loss: 0.168650; batch adversarial loss: 0.082291
+epoch 12; iter: 600; batch classifier loss: 0.190180; batch adversarial loss: 0.082509
+epoch 12; iter: 800; batch classifier loss: 0.153353; batch adversarial loss: 0.082146
+epoch 13; iter: 0; batch classifier loss: 0.161957; batch adversarial loss: 0.076647
+epoch 13; iter: 200; batch classifier loss: 0.191439; batch adversarial loss: 0.347745
+epoch 13; iter: 400; batch classifier loss: 0.129691; batch adversarial loss: 0.051617
+epoch 13; iter: 600; batch classifier loss: 0.145667; batch adversarial loss: 0.143700
+epoch 13; iter: 800; batch classifier loss: 0.221400; batch adversarial loss: 0.107716
+epoch 14; iter: 0; batch classifier loss: 0.178965; batch adversarial loss: 0.134875
+epoch 14; iter: 200; batch classifier loss: 0.128412; batch adversarial loss: 0.206308
+epoch 14; iter: 400; batch classifier loss: 0.206521; batch adversarial loss: 0.113375
+epoch 14; iter: 600; batch classifier loss: 0.127520; batch adversarial loss: 0.081511
+epoch 14; iter: 800; batch classifier loss: 0.166835; batch adversarial loss: 0.051376
+epoch 15; iter: 0; batch classifier loss: 0.126115; batch adversarial loss: 0.081354
+epoch 15; iter: 200; batch classifier loss: 0.179167; batch adversarial loss: 0.134479
+epoch 15; iter: 400; batch classifier loss: 0.203812; batch adversarial loss: 0.112550
+epoch 15; iter: 600; batch classifier loss: 0.153963; batch adversarial loss: 0.112007
+epoch 15; iter: 800; batch classifier loss: 0.398865; batch adversarial loss: 0.051383
+epoch 16; iter: 0; batch classifier loss: 0.141457; batch adversarial loss: 0.140893
+epoch 16; iter: 200; batch classifier loss: 0.244139; batch adversarial loss: 0.139921
+epoch 16; iter: 400; batch classifier loss: 0.213090; batch adversarial loss: 0.170499
+epoch 16; iter: 600; batch classifier loss: 0.201795; batch adversarial loss: 0.081904
+epoch 16; iter: 800; batch classifier loss: 0.123626; batch adversarial loss: 0.141784
+epoch 17; iter: 0; batch classifier loss: 0.198215; batch adversarial loss: 0.082877
+epoch 17; iter: 200; batch classifier loss: 0.195882; batch adversarial loss: 0.082271
+epoch 17; iter: 400; batch classifier loss: 0.179083; batch adversarial loss: 0.113052
+epoch 17; iter: 600; batch classifier loss: 0.201509; batch adversarial loss: 0.047587
+epoch 17; iter: 800; batch classifier loss: 0.114555; batch adversarial loss: 0.112508
+epoch 18; iter: 0; batch classifier loss: 0.167871; batch adversarial loss: 0.082023
+epoch 18; iter: 200; batch classifier loss: 0.255187; batch adversarial loss: 0.051772
+epoch 18; iter: 400; batch classifier loss: 0.205868; batch adversarial loss: 0.108643
+epoch 18; iter: 600; batch classifier loss: 0.181611; batch adversarial loss: 0.082634
+epoch 18; iter: 800; batch classifier loss: 0.169962; batch adversarial loss: 0.082226
+epoch 19; iter: 0; batch classifier loss: 0.236907; batch adversarial loss: 0.077899
+epoch 19; iter: 200; batch classifier loss: 0.148187; batch adversarial loss: 0.112764
+epoch 19; iter: 400; batch classifier loss: 0.165441; batch adversarial loss: 0.078161
+epoch 19; iter: 600; batch classifier loss: 0.205835; batch adversarial loss: 0.171170
+epoch 19; iter: 800; batch classifier loss: 0.141508; batch adversarial loss: 0.050947
+epoch 20; iter: 0; batch classifier loss: 0.239493; batch adversarial loss: 0.075304
+epoch 20; iter: 200; batch classifier loss: 0.200136; batch adversarial loss: 0.135206
+epoch 20; iter: 400; batch classifier loss: 0.301779; batch adversarial loss: 0.108716
+epoch 20; iter: 600; batch classifier loss: 0.199267; batch adversarial loss: 0.077231
+epoch 20; iter: 800; batch classifier loss: 0.165347; batch adversarial loss: 0.144110
+epoch 21; iter: 0; batch classifier loss: 0.093543; batch adversarial loss: 0.112869
+epoch 21; iter: 200; batch classifier loss: 0.186565; batch adversarial loss: 0.082458
+epoch 21; iter: 400; batch classifier loss: 0.207615; batch adversarial loss: 0.052105
+epoch 21; iter: 600; batch classifier loss: 0.232499; batch adversarial loss: 0.137226
+epoch 21; iter: 800; batch classifier loss: 0.121089; batch adversarial loss: 0.107498
+epoch 22; iter: 0; batch classifier loss: 0.214690; batch adversarial loss: 0.020717
+epoch 22; iter: 200; batch classifier loss: 0.244923; batch adversarial loss: 0.135759
+epoch 22; iter: 400; batch classifier loss: 0.248457; batch adversarial loss: 0.113709
+epoch 22; iter: 600; batch classifier loss: 0.237640; batch adversarial loss: 0.166676
+epoch 22; iter: 800; batch classifier loss: 0.157181; batch adversarial loss: 0.076000
+epoch 23; iter: 0; batch classifier loss: 0.168054; batch adversarial loss: 0.112684
+epoch 23; iter: 200; batch classifier loss: 0.177923; batch adversarial loss: 0.076107
+epoch 23; iter: 400; batch classifier loss: 0.162029; batch adversarial loss: 0.142523
+epoch 23; iter: 600; batch classifier loss: 0.147902; batch adversarial loss: 0.230457
+epoch 23; iter: 800; batch classifier loss: 0.120429; batch adversarial loss: 0.111025
+epoch 24; iter: 0; batch classifier loss: 0.131279; batch adversarial loss: 0.133869
+epoch 24; iter: 200; batch classifier loss: 0.346336; batch adversarial loss: 0.051758
+epoch 24; iter: 400; batch classifier loss: 0.140877; batch adversarial loss: 0.080938
+epoch 24; iter: 600; batch classifier loss: 0.201669; batch adversarial loss: 0.080996
+epoch 24; iter: 800; batch classifier loss: 0.136322; batch adversarial loss: 0.051496
+epoch 25; iter: 0; batch classifier loss: 0.236242; batch adversarial loss: 0.082704
+epoch 25; iter: 200; batch classifier loss: 0.118918; batch adversarial loss: 0.051323
+epoch 25; iter: 400; batch classifier loss: 0.237751; batch adversarial loss: 0.047241
+epoch 25; iter: 600; batch classifier loss: 0.213121; batch adversarial loss: 0.051658
+epoch 25; iter: 800; batch classifier loss: 0.140189; batch adversarial loss: 0.168342
+epoch 26; iter: 0; batch classifier loss: 0.270421; batch adversarial loss: 0.107432
+epoch 26; iter: 200; batch classifier loss: 0.180652; batch adversarial loss: 0.051825
+epoch 26; iter: 400; batch classifier loss: 0.103276; batch adversarial loss: 0.051227
+epoch 26; iter: 600; batch classifier loss: 0.207949; batch adversarial loss: 0.140497
+epoch 26; iter: 800; batch classifier loss: 0.202686; batch adversarial loss: 0.082536
+epoch 27; iter: 0; batch classifier loss: 0.201993; batch adversarial loss: 0.143825
+epoch 27; iter: 200; batch classifier loss: 0.223217; batch adversarial loss: 0.113803
+epoch 27; iter: 400; batch classifier loss: 0.164711; batch adversarial loss: 0.051040
+epoch 27; iter: 600; batch classifier loss: 0.157041; batch adversarial loss: 0.071882
+epoch 27; iter: 800; batch classifier loss: 0.144366; batch adversarial loss: 0.080430
+epoch 28; iter: 0; batch classifier loss: 0.120664; batch adversarial loss: 0.169151
+epoch 28; iter: 200; batch classifier loss: 0.106162; batch adversarial loss: 0.174556
+epoch 28; iter: 400; batch classifier loss: 0.130794; batch adversarial loss: 0.050702
+epoch 28; iter: 600; batch classifier loss: 0.172812; batch adversarial loss: 0.082228
+epoch 28; iter: 800; batch classifier loss: 0.095423; batch adversarial loss: 0.106248
+epoch 29; iter: 0; batch classifier loss: 0.098509; batch adversarial loss: 0.050631
+epoch 29; iter: 200; batch classifier loss: 0.147271; batch adversarial loss: 0.138852
+epoch 29; iter: 400; batch classifier loss: 0.115618; batch adversarial loss: 0.141797
+epoch 29; iter: 600; batch classifier loss: 0.144082; batch adversarial loss: 0.144075
+epoch 29; iter: 800; batch classifier loss: 0.327199; batch adversarial loss: 0.108898
+epoch 30; iter: 0; batch classifier loss: 0.203308; batch adversarial loss: 0.112594
+epoch 30; iter: 200; batch classifier loss: 0.178844; batch adversarial loss: 0.233929
+epoch 30; iter: 400; batch classifier loss: 0.152507; batch adversarial loss: 0.081518
+epoch 30; iter: 600; batch classifier loss: 0.094169; batch adversarial loss: 0.138584
+epoch 30; iter: 800; batch classifier loss: 0.169033; batch adversarial loss: 0.082067
+epoch 31; iter: 0; batch classifier loss: 0.164383; batch adversarial loss: 0.170402
+epoch 31; iter: 200; batch classifier loss: 0.184277; batch adversarial loss: 0.137944
+epoch 31; iter: 400; batch classifier loss: 0.260560; batch adversarial loss: 0.112082
+epoch 31; iter: 600; batch classifier loss: 0.158680; batch adversarial loss: 0.112991
+epoch 31; iter: 800; batch classifier loss: 0.166883; batch adversarial loss: 0.082394
+epoch 32; iter: 0; batch classifier loss: 0.095203; batch adversarial loss: 0.142346
+epoch 32; iter: 200; batch classifier loss: 0.113376; batch adversarial loss: 0.081758
+epoch 32; iter: 400; batch classifier loss: 0.267025; batch adversarial loss: 0.021131
+epoch 32; iter: 600; batch classifier loss: 0.208707; batch adversarial loss: 0.052026
+epoch 32; iter: 800; batch classifier loss: 0.141166; batch adversarial loss: 0.111614
+epoch 33; iter: 0; batch classifier loss: 0.235888; batch adversarial loss: 0.075576
+epoch 33; iter: 200; batch classifier loss: 0.132657; batch adversarial loss: 0.082538
+epoch 33; iter: 400; batch classifier loss: 0.200717; batch adversarial loss: 0.082090
+epoch 33; iter: 600; batch classifier loss: 0.092771; batch adversarial loss: 0.143803
+epoch 33; iter: 800; batch classifier loss: 0.167500; batch adversarial loss: 0.252859
+epoch 34; iter: 0; batch classifier loss: 0.146113; batch adversarial loss: 0.137335
+epoch 34; iter: 200; batch classifier loss: 0.201092; batch adversarial loss: 0.113304
+epoch 34; iter: 400; batch classifier loss: 0.271297; batch adversarial loss: 0.107973
+epoch 34; iter: 600; batch classifier loss: 0.130658; batch adversarial loss: 0.076362
+epoch 34; iter: 800; batch classifier loss: 0.255470; batch adversarial loss: 0.082687
+epoch 35; iter: 0; batch classifier loss: 0.134164; batch adversarial loss: 0.081982
+epoch 35; iter: 200; batch classifier loss: 0.124790; batch adversarial loss: 0.051184
+epoch 35; iter: 400; batch classifier loss: 0.141271; batch adversarial loss: 0.020192
+epoch 35; iter: 600; batch classifier loss: 0.245285; batch adversarial loss: 0.109524
+epoch 35; iter: 800; batch classifier loss: 0.177880; batch adversarial loss: 0.051756
+epoch 36; iter: 0; batch classifier loss: 0.123026; batch adversarial loss: 0.081947
+epoch 36; iter: 200; batch classifier loss: 0.143679; batch adversarial loss: 0.266521
+epoch 36; iter: 400; batch classifier loss: 0.256873; batch adversarial loss: 0.130060
+epoch 36; iter: 600; batch classifier loss: 0.126792; batch adversarial loss: 0.050797
+epoch 36; iter: 800; batch classifier loss: 0.190393; batch adversarial loss: 0.046893
+epoch 37; iter: 0; batch classifier loss: 0.272948; batch adversarial loss: 0.021142
+epoch 37; iter: 200; batch classifier loss: 0.222427; batch adversarial loss: 0.020451
+epoch 37; iter: 400; batch classifier loss: 0.180213; batch adversarial loss: 0.137834
+epoch 37; iter: 600; batch classifier loss: 0.096868; batch adversarial loss: 0.105991
+epoch 37; iter: 800; batch classifier loss: 0.161074; batch adversarial loss: 0.140979
+epoch 38; iter: 0; batch classifier loss: 0.119343; batch adversarial loss: 0.174722
+epoch 38; iter: 200; batch classifier loss: 0.166108; batch adversarial loss: 0.082140
+epoch 38; iter: 400; batch classifier loss: 0.222509; batch adversarial loss: 0.051586
+epoch 38; iter: 600; batch classifier loss: 0.152402; batch adversarial loss: 0.113395
+epoch 38; iter: 800; batch classifier loss: 0.263584; batch adversarial loss: 0.108445
+epoch 39; iter: 0; batch classifier loss: 0.144605; batch adversarial loss: 0.112384
+epoch 39; iter: 200; batch classifier loss: 0.191817; batch adversarial loss: 0.137994
+epoch 39; iter: 400; batch classifier loss: 0.156364; batch adversarial loss: 0.081286
+epoch 39; iter: 600; batch classifier loss: 0.216964; batch adversarial loss: 0.140485
+epoch 39; iter: 800; batch classifier loss: 0.223169; batch adversarial loss: 0.082200
+epoch 40; iter: 0; batch classifier loss: 0.223018; batch adversarial loss: 0.082600
+epoch 40; iter: 200; batch classifier loss: 0.188657; batch adversarial loss: 0.113356
+epoch 40; iter: 400; batch classifier loss: 0.174659; batch adversarial loss: 0.082433
+epoch 40; iter: 600; batch classifier loss: 0.149965; batch adversarial loss: 0.112380
+epoch 40; iter: 800; batch classifier loss: 0.110215; batch adversarial loss: 0.132098
+epoch 41; iter: 0; batch classifier loss: 0.154156; batch adversarial loss: 0.205244
+epoch 41; iter: 200; batch classifier loss: 0.311631; batch adversarial loss: 0.082887
+epoch 41; iter: 400; batch classifier loss: 0.160843; batch adversarial loss: 0.082264
+epoch 41; iter: 600; batch classifier loss: 0.165698; batch adversarial loss: 0.225018
+epoch 41; iter: 800; batch classifier loss: 0.143721; batch adversarial loss: 0.113148
+epoch 42; iter: 0; batch classifier loss: 0.166722; batch adversarial loss: 0.052136
+epoch 42; iter: 200; batch classifier loss: 0.212595; batch adversarial loss: 0.051326
+epoch 42; iter: 400; batch classifier loss: 0.194726; batch adversarial loss: 0.168263
+epoch 42; iter: 600; batch classifier loss: 0.126062; batch adversarial loss: 0.236203
+epoch 42; iter: 800; batch classifier loss: 0.246051; batch adversarial loss: 0.114487
+epoch 43; iter: 0; batch classifier loss: 0.175191; batch adversarial loss: 0.109092
+epoch 43; iter: 200; batch classifier loss: 0.121673; batch adversarial loss: 0.143468
+epoch 43; iter: 400; batch classifier loss: 0.194384; batch adversarial loss: 0.051861
+epoch 43; iter: 600; batch classifier loss: 0.153659; batch adversarial loss: 0.082172
+epoch 43; iter: 800; batch classifier loss: 0.188944; batch adversarial loss: 0.082801
+epoch 44; iter: 0; batch classifier loss: 0.160179; batch adversarial loss: 0.134147
+epoch 44; iter: 200; batch classifier loss: 0.285286; batch adversarial loss: 0.048089
+epoch 44; iter: 400; batch classifier loss: 0.185018; batch adversarial loss: 0.143814
+epoch 44; iter: 600; batch classifier loss: 0.213928; batch adversarial loss: 0.082220
+epoch 44; iter: 800; batch classifier loss: 0.133248; batch adversarial loss: 0.020335
+epoch 45; iter: 0; batch classifier loss: 0.198086; batch adversarial loss: 0.113740
+epoch 45; iter: 200; batch classifier loss: 0.193591; batch adversarial loss: 0.083215
+epoch 45; iter: 400; batch classifier loss: 0.166682; batch adversarial loss: 0.134322
+epoch 45; iter: 600; batch classifier loss: 0.176650; batch adversarial loss: 0.020708
+epoch 45; iter: 800; batch classifier loss: 0.057201; batch adversarial loss: 0.081365
+epoch 46; iter: 0; batch classifier loss: 0.145573; batch adversarial loss: 0.113128
+epoch 46; iter: 200; batch classifier loss: 0.133196; batch adversarial loss: 0.162180
+epoch 46; iter: 400; batch classifier loss: 0.138204; batch adversarial loss: 0.082386
+epoch 46; iter: 600; batch classifier loss: 0.148521; batch adversarial loss: 0.052083
+epoch 46; iter: 800; batch classifier loss: 0.151904; batch adversarial loss: 0.170897
+epoch 47; iter: 0; batch classifier loss: 0.185231; batch adversarial loss: 0.082473
+epoch 47; iter: 200; batch classifier loss: 0.203979; batch adversarial loss: 0.052161
+epoch 47; iter: 400; batch classifier loss: 0.174783; batch adversarial loss: 0.077480
+epoch 47; iter: 600; batch classifier loss: 0.273914; batch adversarial loss: 0.165665
+epoch 47; iter: 800; batch classifier loss: 0.171778; batch adversarial loss: 0.020839
+epoch 48; iter: 0; batch classifier loss: 0.127170; batch adversarial loss: 0.082150
+epoch 48; iter: 200; batch classifier loss: 0.172906; batch adversarial loss: 0.051580
+epoch 48; iter: 400; batch classifier loss: 0.205038; batch adversarial loss: 0.114064
+epoch 48; iter: 600; batch classifier loss: 0.197678; batch adversarial loss: 0.021162
+epoch 48; iter: 800; batch classifier loss: 0.212932; batch adversarial loss: 0.051584
+epoch 49; iter: 0; batch classifier loss: 0.143541; batch adversarial loss: 0.143016
+epoch 49; iter: 200; batch classifier loss: 0.209630; batch adversarial loss: 0.144440
+epoch 49; iter: 400; batch classifier loss: 0.143088; batch adversarial loss: 0.082047
+epoch 49; iter: 600; batch classifier loss: 0.133897; batch adversarial loss: 0.162981
+epoch 49; iter: 800; batch classifier loss: 0.189209; batch adversarial loss: 0.170008
+#### Plain model - without debiasing - dataset metrics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = -0.026534
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.012999
+#### Model - with debiasing - dataset metrics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = 0.002475
+Test set: Difference in mean outcomes between unprivileged and privileged groups = 0.011539
+#### Plain model - without debiasing - classification metrics
+Test set: Classification accuracy = 0.935244
+Test set: Balanced classification accuracy = 0.595234
+Test set: Disparate impact = 0.986687
+Test set: Equal opportunity difference = -0.012126
+Test set: Average odds difference = 0.009638
+Test set: Theil_index = 0.028937
+Balanced accuracy = 0.5952
+Statistical parity difference = -0.0130
+Disparate impact = 0.9867
+Average odds difference = 0.0096
+Equal opportunity difference = -0.0121
+Theil index = 0.0289
+Profit: 5114286.4000002695
+Profit Per Loan: 227.30161777778974
+Profit Per EUR: 227.30161777778974
+#### Model - with debiasing - classification metrics
+Test set: Classification accuracy = 0.934889
+Test set: Balanced classification accuracy = 0.605572
+Test set: Disparate impact = 1.011866
+Test set: Equal opportunity difference = 0.002834
+Test set: Average odds difference = 0.078908
+Test set: Theil_index = 0.030432
+Balanced accuracy = 0.6056
+Statistical parity difference = 0.0115
+Disparate impact = 1.0119
+Average odds difference = 0.0789
+Equal opportunity difference = 0.0028
+Theil index = 0.0304
+Profit: 5100298.000000249
+Profit Per Loan: 226.67991111112215
+Profit Per EUR: 226.67991111112215
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: 1.74%
+Statistical parity difference: -188.77%
+Disparate impact: 2.55%
+Average odds difference: 718.68%
+Equal opportunity difference: -123.37%
+Theil index: 5.16%
+
+Profit Percentage Change: -0.27%

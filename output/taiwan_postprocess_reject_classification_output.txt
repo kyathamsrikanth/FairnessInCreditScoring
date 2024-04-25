@@ -1,0 +1,69 @@
+(23531, 77)
+#### Training Dataset shape
+(16471, 76)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['LIMIT_BAL', 'AGE', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6', 'CREDIT_AMNT', 'SEX=Female', 'SEX=Male', 'EDUCATION=graduate_school', 'EDUCATION=high_school', 'EDUCATION=others', 'EDUCATION=university', 'MARRIAGE=married', 'MARRIAGE=others', 'MARRIAGE=single', 'PAY_0=0', 'PAY_0=1', 'PAY_0=2', 'PAY_0=3', 'PAY_0=4', 'PAY_0=5', 'PAY_0=6', 'PAY_0=7', 'PAY_0=8', 'PAY_2=0', 'PAY_2=1', 'PAY_2=2', 'PAY_2=3', 'PAY_2=4', 'PAY_2=5', 'PAY_2=6', 'PAY_2=7', 'PAY_2=8', 'PAY_3=0', 'PAY_3=1', 'PAY_3=2', 'PAY_3=3', 'PAY_3=4', 'PAY_3=5', 'PAY_3=6', 'PAY_3=7', 'PAY_3=8', 'PAY_4=0', 'PAY_4=1', 'PAY_4=2', 'PAY_4=3', 'PAY_4=4', 'PAY_4=5', 'PAY_4=6', 'PAY_4=7', 'PAY_4=8', 'PAY_5=0', 'PAY_5=2', 'PAY_5=3', 'PAY_5=4', 'PAY_5=5', 'PAY_5=6', 'PAY_5=7', 'PAY_5=8', 'PAY_6=0', 'PAY_6=2', 'PAY_6=3', 'PAY_6=4', 'PAY_6=5', 'PAY_6=6', 'PAY_6=7', 'PAY_6=8']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.058386
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.050323
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.044007
+Best balanced accuracy (no fairness constraints) = 0.7319
+Optimal classification threshold (no fairness constraints) = 0.7821
+Optimal classification threshold (with fairness constraints) = 0.7029
+Optimal ROC margin = 0.0788
+#### Validation set
+##### Raw predictions - No fairness constraints, only maximizing balanced accuracy
+Balanced accuracy = 0.7319
+Statistical parity difference = -0.1010
+Disparate impact = 0.8697
+Average odds difference = -0.0717
+Equal opportunity difference = -0.0849
+Theil index = 0.1373
+#### Validation set
+##### Transformed predictions - With fairness constraints
+Balanced accuracy = 0.7313
+Statistical parity difference = -0.0066
+Disparate impact = 0.9915
+Average odds difference = 0.0199
+Equal opportunity difference = 0.0130
+Theil index = 0.1275
+#### Test set
+##### Raw predictions - No fairness constraints, only maximizing balanced accuracy
+Balanced accuracy = 0.7310
+Statistical parity difference = -0.0978
+Disparate impact = 0.8735
+Average odds difference = -0.0903
+Equal opportunity difference = -0.0635
+Theil index = 0.1403
+Profit: 30595558653.199947
+Profit Per Loan: 8667297.068895169
+Profit Per EUR: 141.941537128493
+#### Test set
+##### Transformed predictions - With fairness constraints
+Balanced accuracy = 0.7236
+Statistical parity difference = 0.0183
+Disparate impact = 1.0237
+Average odds difference = 0.0421
+Equal opportunity difference = 0.0336
+Theil index = 0.1303
+Profit: 30997272699.59995
+Profit Per Loan: 8781097.082039645
+Profit Per EUR: 143.80520335137334
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: -1.01%
+Statistical parity difference: -118.75%
+Disparate impact: 17.20%
+Average odds difference: -146.65%
+Equal opportunity difference: -152.89%
+Theil index: -7.08%
+
+Profit Percentage Change: 1.31%

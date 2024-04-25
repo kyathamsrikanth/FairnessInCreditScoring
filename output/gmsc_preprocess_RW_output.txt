@@ -1,0 +1,53 @@
+(150000, 69)
+#### Training Dataset shape
+(105000, 68)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['UnknownNumberOfDependents', 'UnknownMonthlyIncome', 'NoDependents', 'NoIncome', 'ZeroDebtRatio', 'UnknownIncomeDebtRatio', 'WeirdRevolvingUtilization', 'ZeroRevolvingUtilization', 'Log.Debt', 'RevolvingLines', 'HasRevolvingLines', 'HasRealEstateLoans', 'HasMultipleRealEstateLoans', 'EligibleSS', 'DTIOver33', 'DTIOver43', 'DisposableIncome', 'RevolvingToRealEstate', 'NumberOfTime30.59DaysPastDueNotWorseLarge', 'NumberOfTime30.59DaysPastDueNotWorse96', 'Never30.59DaysPastDueNotWorse', 'Never60.89DaysPastDueNotWorse', 'Never90DaysLate', 'IncomeDivBy10', 'IncomeDivBy100', 'IncomeDivBy1000', 'IncomeDivBy5000', 'Weird0999Utilization', 'FullUtilization', 'ExcessUtilization', 'NumberOfTime30.89DaysPastDueNotWorse', 'Never30.89DaysPastDueNotWorse', 'NeverPastDue', 'Log.RevolvingUtilizationTimesLines', 'Log.RevolvingUtilizationOfUnsecuredLines', 'DelinquenciesPerLine', 'MajorDelinquenciesPerLine', 'MinorDelinquenciesPerLine', 'DelinquenciesPerRevolvingLine', 'MajorDelinquenciesPerRevolvingLine', 'MinorDelinquenciesPerRevolvingLine', 'Log.DebtPerLine', 'Log.DebtPerRealEstateLine', 'Log.DebtPerPerson', 'RevolvingLinesPerPerson', 'RealEstateLoansPerPerson', 'YearsOfAgePerDependent', 'Log.MonthlyIncome', 'Log.IncomePerPerson', 'Log.NumberOfTimesPastDue', 'Log.NumberOfTimes90DaysLate', 'Log.NumberOfTime30.59DaysPastDueNotWorse', 'Log.NumberOfTime60.89DaysPastDueNotWorse', 'Log.Ratio90to30.59DaysLate', 'Log.Ratio90to60.89DaysLate', 'AnyOpenCreditLinesOrLoans', 'Log.NumberOfOpenCreditLinesAndLoans', 'Log.NumberOfOpenCreditLinesAndLoansPerPerson', 'Has.Dependents', 'Log.HouseholdSize', 'Log.DebtRatio', 'Log.UnknownIncomeDebtRatio', 'Log.UnknownIncomeDebtRatioPerPerson', 'Log.UnknownIncomeDebtRatioPerLine', 'Log.UnknownIncomeDebtRatioPerRealEstateLine', 'Log.NumberRealEstateLoansOrLines', 'CREDIT_AMNT', 'AGE']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.043400
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.036392
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.064778
+#### Transformed training dataset
+-- statistical parity difference in mean outcomes between unprivileged and privileged groups = 0.000000
+Best balanced accuracy (no reweighing) = 0.7851
+Optimal classification threshold (no reweighing) = 0.9405
+#### Predictions from original testing data
+Classification threshold used = 0.9405
+Balanced accuracy = 0.7771
+Statistical parity difference = -0.2570
+Disparate impact = 0.6633
+Average odds difference = -0.1910
+Equal opportunity difference = -0.2318
+Theil index = 0.2198
+Profit: -3456727600.0
+Profit Per Loan: -153632.33777777778
+Profit Per EUR: -153.6323377777778
+#### Predictions from transformed testing data
+Classification threshold used = 0.9405
+Balanced accuracy = 0.7751
+Statistical parity difference = -0.0143
+Disparate impact = 0.9812
+Average odds difference = 0.0442
+Equal opportunity difference = 0.0135
+Theil index = 0.2132
+Profit: -3452776000.0
+Profit Per Loan: -153456.7111111111
+Profit Per EUR: -153.4567111111111
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: -0.26%
+Statistical parity difference: -94.42%
+Disparate impact: 47.92%
+Average odds difference: -123.16%
+Equal opportunity difference: -105.80%
+Theil index: -3.01%
+
+Profit Percentage Change: -0.11%

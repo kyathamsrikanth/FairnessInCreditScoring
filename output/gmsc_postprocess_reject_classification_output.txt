@@ -1,0 +1,69 @@
+(150000, 69)
+#### Training Dataset shape
+(105000, 68)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['UnknownNumberOfDependents', 'UnknownMonthlyIncome', 'NoDependents', 'NoIncome', 'ZeroDebtRatio', 'UnknownIncomeDebtRatio', 'WeirdRevolvingUtilization', 'ZeroRevolvingUtilization', 'Log.Debt', 'RevolvingLines', 'HasRevolvingLines', 'HasRealEstateLoans', 'HasMultipleRealEstateLoans', 'EligibleSS', 'DTIOver33', 'DTIOver43', 'DisposableIncome', 'RevolvingToRealEstate', 'NumberOfTime30.59DaysPastDueNotWorseLarge', 'NumberOfTime30.59DaysPastDueNotWorse96', 'Never30.59DaysPastDueNotWorse', 'Never60.89DaysPastDueNotWorse', 'Never90DaysLate', 'IncomeDivBy10', 'IncomeDivBy100', 'IncomeDivBy1000', 'IncomeDivBy5000', 'Weird0999Utilization', 'FullUtilization', 'ExcessUtilization', 'NumberOfTime30.89DaysPastDueNotWorse', 'Never30.89DaysPastDueNotWorse', 'NeverPastDue', 'Log.RevolvingUtilizationTimesLines', 'Log.RevolvingUtilizationOfUnsecuredLines', 'DelinquenciesPerLine', 'MajorDelinquenciesPerLine', 'MinorDelinquenciesPerLine', 'DelinquenciesPerRevolvingLine', 'MajorDelinquenciesPerRevolvingLine', 'MinorDelinquenciesPerRevolvingLine', 'Log.DebtPerLine', 'Log.DebtPerRealEstateLine', 'Log.DebtPerPerson', 'RevolvingLinesPerPerson', 'RealEstateLoansPerPerson', 'YearsOfAgePerDependent', 'Log.MonthlyIncome', 'Log.IncomePerPerson', 'Log.NumberOfTimesPastDue', 'Log.NumberOfTimes90DaysLate', 'Log.NumberOfTime30.59DaysPastDueNotWorse', 'Log.NumberOfTime60.89DaysPastDueNotWorse', 'Log.Ratio90to30.59DaysLate', 'Log.Ratio90to60.89DaysLate', 'AnyOpenCreditLinesOrLoans', 'Log.NumberOfOpenCreditLinesAndLoans', 'Log.NumberOfOpenCreditLinesAndLoansPerPerson', 'Has.Dependents', 'Log.HouseholdSize', 'Log.DebtRatio', 'Log.UnknownIncomeDebtRatio', 'Log.UnknownIncomeDebtRatioPerPerson', 'Log.UnknownIncomeDebtRatioPerLine', 'Log.UnknownIncomeDebtRatioPerRealEstateLine', 'Log.NumberRealEstateLoansOrLines', 'CREDIT_AMNT', 'AGE']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.047754
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.023835
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.055937
+Best balanced accuracy (no fairness constraints) = 0.7801
+Optimal classification threshold (no fairness constraints) = 0.9504
+Optimal classification threshold (with fairness constraints) = 0.9207
+Optimal ROC margin = 0.0243
+#### Validation set
+##### Raw predictions - No fairness constraints, only maximizing balanced accuracy
+Balanced accuracy = 0.7801
+Statistical parity difference = -0.2885
+Disparate impact = 0.5963
+Average odds difference = -0.2028
+Equal opportunity difference = -0.2916
+Theil index = 0.2733
+#### Validation set
+##### Transformed predictions - With fairness constraints
+Balanced accuracy = 0.7824
+Statistical parity difference = 0.0364
+Disparate impact = 1.0492
+Average odds difference = 0.0465
+Equal opportunity difference = 0.0506
+Theil index = 0.2363
+#### Test set
+##### Raw predictions - No fairness constraints, only maximizing balanced accuracy
+Balanced accuracy = 0.7713
+Statistical parity difference = -0.2856
+Disparate impact = 0.6024
+Average odds difference = -0.1838
+Equal opportunity difference = -0.2777
+Theil index = 0.2754
+Profit: 2677182800.0
+Profit Per Loan: 118985.90222222223
+Profit Per EUR: 118.98590222222222
+#### Test set
+##### Transformed predictions - With fairness constraints
+Balanced accuracy = 0.7736
+Statistical parity difference = -0.0115
+Disparate impact = 0.9846
+Average odds difference = 0.0425
+Equal opportunity difference = 0.0119
+Theil index = 0.2350
+Profit: 3046918800.0
+Profit Per Loan: 135418.61333333334
+Profit Per EUR: 135.41861333333335
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: 0.29%
+Statistical parity difference: -95.97%
+Disparate impact: 63.44%
+Average odds difference: -123.14%
+Equal opportunity difference: -104.27%
+Theil index: -14.67%
+
+Profit Percentage Change: 13.81%

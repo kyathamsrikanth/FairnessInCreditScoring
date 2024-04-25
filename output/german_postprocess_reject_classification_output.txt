@@ -1,0 +1,69 @@
+(1000, 62)
+#### Training Dataset shape
+(700, 61)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['duration', 'installment_rate', 'resident_since', 'num_credits', 'people_maintenance', 'AGE', 'CREDIT_AMNT', 'account_status=X1', 'account_status=X2', 'account_status=X3', 'account_status=X4', 'credit_history=X1', 'credit_history=X2', 'credit_history=X3', 'credit_history=X4', 'credit_history=X5', 'purpose=X1', 'purpose=X10', 'purpose=X2', 'purpose=X3', 'purpose=X4', 'purpose=X5', 'purpose=X6', 'purpose=X7', 'purpose=X8', 'purpose=X9', 'savings=X1', 'savings=X2', 'savings=X3', 'savings=X4', 'savings=X5', 'employment=X1', 'employment=X2', 'employment=X3', 'employment=X4', 'employment=X5', 'status_gender=X1', 'status_gender=X2', 'status_gender=X3', 'status_gender=X4', 'guarantors=X1', 'guarantors=X2', 'guarantors=X3', 'property=X1', 'property=X2', 'property=X3', 'property=X4', 'other_plans=X1', 'other_plans=X2', 'other_plans=X3', 'housing=X1', 'housing=X2', 'housing=X3', 'job=X1', 'job=X2', 'job=X3', 'job=X4', 'phone=X1', 'phone=X2', 'foreign=X1', 'foreign=X2']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.118951
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.277645
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.184061
+Best balanced accuracy (no fairness constraints) = 0.7760
+Optimal classification threshold (no fairness constraints) = 0.7425
+Optimal classification threshold (with fairness constraints) = 0.5940
+Optimal ROC margin = 0.1491
+#### Validation set
+##### Raw predictions - No fairness constraints, only maximizing balanced accuracy
+Balanced accuracy = 0.7760
+Statistical parity difference = -0.3218
+Disparate impact = 0.4477
+Average odds difference = -0.1782
+Equal opportunity difference = -0.1629
+Theil index = 0.2661
+#### Validation set
+##### Transformed predictions - With fairness constraints
+Balanced accuracy = 0.7435
+Statistical parity difference = -0.0175
+Disparate impact = 0.9700
+Average odds difference = 0.1248
+Equal opportunity difference = 0.1098
+Theil index = 0.2497
+#### Test set
+##### Raw predictions - No fairness constraints, only maximizing balanced accuracy
+Balanced accuracy = 0.7524
+Statistical parity difference = -0.1073
+Disparate impact = 0.7677
+Average odds difference = 0.0124
+Equal opportunity difference = -0.0934
+Theil index = 0.3767
+Profit: -5379141.999999994
+Profit Per Loan: -35860.94666666663
+Profit Per EUR: -9.869804223775699
+#### Test set
+##### Transformed predictions - With fairness constraints
+Balanced accuracy = 0.7342
+Statistical parity difference = 0.1185
+Disparate impact = 1.2563
+Average odds difference = 0.2389
+Equal opportunity difference = 0.1288
+Theil index = 0.3474
+Profit: -4524777.1999999955
+Profit Per Loan: -30165.181333333305
+Profit Per EUR: -8.30219115245591
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: -2.42%
+Statistical parity difference: -210.35%
+Disparate impact: 63.64%
+Average odds difference: 1832.10%
+Equal opportunity difference: -237.91%
+Theil index: -7.77%
+
+Profit Percentage Change: -15.88%

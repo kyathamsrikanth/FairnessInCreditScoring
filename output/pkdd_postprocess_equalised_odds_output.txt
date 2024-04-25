@@ -1,0 +1,71 @@
+(50000, 186)
+#### Training Dataset shape
+(35000, 185)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['QUANT_DEPENDANTS', 'FLAG_RESIDENCIAL_PHONE', 'MONTHS_IN_RESIDENCE', 'FLAG_EMAIL', 'PERSONAL_MONTHLY_INCOME', 'OTHER_INCOMES', 'FLAG_VISA', 'FLAG_MASTERCARD', 'QUANT_SPECIAL_BANKING_ACCOUNTS', 'QUANT_CARS', 'COMPANY', 'FLAG_PROFESSIONAL_PHONE', 'AGE', 'CREDIT_AMNT', 'PAYMENT_DAY=X1', 'PAYMENT_DAY=X2', 'PAYMENT_DAY=X3', 'PAYMENT_DAY=X4', 'PAYMENT_DAY=X5', 'PAYMENT_DAY=X6', 'APPLICATION_SUBMISSION_TYPE=X0', 'APPLICATION_SUBMISSION_TYPE=carga', 'APPLICATION_SUBMISSION_TYPE=web', 'SEX=f', 'SEX=m', 'SEX=missing', 'SEX=n', 'MARITAL_STATUS=X1', 'MARITAL_STATUS=X2', 'MARITAL_STATUS=X3', 'MARITAL_STATUS=X4', 'MARITAL_STATUS=X5', 'MARITAL_STATUS=X6', 'MARITAL_STATUS=X7', 'MARITAL_STATUS=X8', 'STATE_OF_BIRTH=ac', 'STATE_OF_BIRTH=al', 'STATE_OF_BIRTH=am', 'STATE_OF_BIRTH=ap', 'STATE_OF_BIRTH=ba', 'STATE_OF_BIRTH=ce', 'STATE_OF_BIRTH=df', 'STATE_OF_BIRTH=es', 'STATE_OF_BIRTH=go', 'STATE_OF_BIRTH=ma', 'STATE_OF_BIRTH=mg', 'STATE_OF_BIRTH=missing', 'STATE_OF_BIRTH=ms', 'STATE_OF_BIRTH=mt', 'STATE_OF_BIRTH=pa', 'STATE_OF_BIRTH=pb', 'STATE_OF_BIRTH=pe', 'STATE_OF_BIRTH=pi', 'STATE_OF_BIRTH=pr', 'STATE_OF_BIRTH=rj', 'STATE_OF_BIRTH=rn', 'STATE_OF_BIRTH=ro', 'STATE_OF_BIRTH=rr', 'STATE_OF_BIRTH=rs', 'STATE_OF_BIRTH=sc', 'STATE_OF_BIRTH=se', 'STATE_OF_BIRTH=sp', 'STATE_OF_BIRTH=to', 'STATE_OF_BIRTH=xx', 'NATIONALITY=X1', 'NATIONALITY=X2', 'NATIONALITY=X3', 'RESIDENTIAL_STATE=ac', 'RESIDENTIAL_STATE=al', 'RESIDENTIAL_STATE=am', 'RESIDENTIAL_STATE=ap', 'RESIDENTIAL_STATE=ba', 'RESIDENTIAL_STATE=ce', 'RESIDENTIAL_STATE=df', 'RESIDENTIAL_STATE=es', 'RESIDENTIAL_STATE=go', 'RESIDENTIAL_STATE=ma', 'RESIDENTIAL_STATE=mg', 'RESIDENTIAL_STATE=ms', 'RESIDENTIAL_STATE=mt', 'RESIDENTIAL_STATE=pa', 'RESIDENTIAL_STATE=pb', 'RESIDENTIAL_STATE=pe', 'RESIDENTIAL_STATE=pi', 'RESIDENTIAL_STATE=pr', 'RESIDENTIAL_STATE=rj', 'RESIDENTIAL_STATE=rn', 'RESIDENTIAL_STATE=ro', 'RESIDENTIAL_STATE=rr', 'RESIDENTIAL_STATE=rs', 'RESIDENTIAL_STATE=sc', 'RESIDENTIAL_STATE=se', 'RESIDENTIAL_STATE=sp', 'RESIDENTIAL_STATE=to', 'RESIDENCE_TYPE=X1', 'RESIDENCE_TYPE=X2', 'RESIDENCE_TYPE=X3', 'RESIDENCE_TYPE=X4', 'RESIDENCE_TYPE=X5', 'RESIDENCE_TYPE=X6', 'RESIDENCE_TYPE=X7', 'PROFESSIONAL_STATE=ac', 'PROFESSIONAL_STATE=al', 'PROFESSIONAL_STATE=am', 'PROFESSIONAL_STATE=ap', 'PROFESSIONAL_STATE=ba', 'PROFESSIONAL_STATE=ce', 'PROFESSIONAL_STATE=df', 'PROFESSIONAL_STATE=es', 'PROFESSIONAL_STATE=go', 'PROFESSIONAL_STATE=ma', 'PROFESSIONAL_STATE=mg', 'PROFESSIONAL_STATE=missing', 'PROFESSIONAL_STATE=ms', 'PROFESSIONAL_STATE=mt', 'PROFESSIONAL_STATE=pa', 'PROFESSIONAL_STATE=pb', 'PROFESSIONAL_STATE=pe', 'PROFESSIONAL_STATE=pi', 'PROFESSIONAL_STATE=pr', 'PROFESSIONAL_STATE=rj', 'PROFESSIONAL_STATE=rn', 'PROFESSIONAL_STATE=ro', 'PROFESSIONAL_STATE=rr', 'PROFESSIONAL_STATE=rs', 'PROFESSIONAL_STATE=sc', 'PROFESSIONAL_STATE=se', 'PROFESSIONAL_STATE=sp', 'PROFESSIONAL_STATE=to', 'PROFESSION_CODE=X1', 'PROFESSION_CODE=X10', 'PROFESSION_CODE=X11', 'PROFESSION_CODE=X12', 'PROFESSION_CODE=X13', 'PROFESSION_CODE=X14', 'PROFESSION_CODE=X15', 'PROFESSION_CODE=X16', 'PROFESSION_CODE=X17', 'PROFESSION_CODE=X18', 'PROFESSION_CODE=X19', 'PROFESSION_CODE=X2', 'PROFESSION_CODE=X20', 'PROFESSION_CODE=X3', 'PROFESSION_CODE=X4', 'PROFESSION_CODE=X5', 'PROFESSION_CODE=X6', 'PROFESSION_CODE=X7', 'PROFESSION_CODE=X8', 'PROFESSION_CODE=X9', 'OCCUPATION_TYPE=X1', 'OCCUPATION_TYPE=X2', 'OCCUPATION_TYPE=X3', 'OCCUPATION_TYPE=X4', 'OCCUPATION_TYPE=X5', 'OCCUPATION_TYPE=X6', 'OCCUPATION_TYPE=X7', 'MATE_PROFESSION_CODE=X1', 'MATE_PROFESSION_CODE=X10', 'MATE_PROFESSION_CODE=X11', 'MATE_PROFESSION_CODE=X12', 'MATE_PROFESSION_CODE=X13', 'MATE_PROFESSION_CODE=X14', 'MATE_PROFESSION_CODE=X15', 'MATE_PROFESSION_CODE=X16', 'MATE_PROFESSION_CODE=X17', 'MATE_PROFESSION_CODE=X18', 'MATE_PROFESSION_CODE=X19', 'MATE_PROFESSION_CODE=X2', 'MATE_PROFESSION_CODE=X3', 'MATE_PROFESSION_CODE=X4', 'MATE_PROFESSION_CODE=X5', 'MATE_PROFESSION_CODE=X6', 'MATE_PROFESSION_CODE=X7', 'MATE_PROFESSION_CODE=X8', 'MATE_PROFESSION_CODE=X9', 'EDUCATION_LEVEL2=X1', 'EDUCATION_LEVEL2=X2', 'EDUCATION_LEVEL2=X3', 'EDUCATION_LEVEL2=X4', 'EDUCATION_LEVEL2=X5', 'EDUCATION_LEVEL2=X6', 'EDUCATION_LEVEL2=X7', 'PRODUCT=X1', 'PRODUCT=X2', 'PRODUCT=X3']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.089617
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.101689
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.100654
+#### Original-Predicted training dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.07702215441916416
+Difference in GFNR between unprivileged and privileged groups
+0.09196676743721138
+#### Original-Predicted validation dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.06395053458267619
+Difference in GFNR between unprivileged and privileged groups
+0.09081670443796569
+#### Original-Predicted testing dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.07167242995840128
+Difference in GFNR between unprivileged and privileged groups
+0.09043874739523969
+Balanced accuracy = 0.5020
+Statistical parity difference = -0.0137
+Disparate impact = 0.9863
+Average odds difference = -0.0128
+Equal opportunity difference = -0.0145
+Theil index = 0.0578
+Profit: 959719600.0
+Profit Per Loan: 127962.61333333333
+Profit Per EUR: 127.96261333333332
+#### Original-Transformed validation dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.0769647991249357
+Difference in GFNR between unprivileged and privileged groups
+0.07558439643909737
+#### Original-Transformed testing dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.08318038861754418
+Difference in GFNR between unprivileged and privileged groups
+0.0748613356019458
+Balanced accuracy = 0.5005
+Statistical parity difference = -0.0168
+Disparate impact = 0.9832
+Average odds difference = -0.0169
+Equal opportunity difference = -0.0167
+Theil index = 0.0564
+Profit: 963036400.0
+Profit Per Loan: 128404.85333333333
+Profit Per EUR: 128.40485333333334
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: -0.31%
+Statistical parity difference: 23.06%
+Disparate impact: -0.31%
+Average odds difference: 31.90%
+Equal opportunity difference: 15.23%
+Theil index: -2.42%
+
+Profit Percentage Change: 0.35%
+#### Classification thresholds used for validation and parameter selection

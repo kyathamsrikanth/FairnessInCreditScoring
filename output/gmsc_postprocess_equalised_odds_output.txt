@@ -1,0 +1,71 @@
+(150000, 69)
+#### Training Dataset shape
+(105000, 68)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['UnknownNumberOfDependents', 'UnknownMonthlyIncome', 'NoDependents', 'NoIncome', 'ZeroDebtRatio', 'UnknownIncomeDebtRatio', 'WeirdRevolvingUtilization', 'ZeroRevolvingUtilization', 'Log.Debt', 'RevolvingLines', 'HasRevolvingLines', 'HasRealEstateLoans', 'HasMultipleRealEstateLoans', 'EligibleSS', 'DTIOver33', 'DTIOver43', 'DisposableIncome', 'RevolvingToRealEstate', 'NumberOfTime30.59DaysPastDueNotWorseLarge', 'NumberOfTime30.59DaysPastDueNotWorse96', 'Never30.59DaysPastDueNotWorse', 'Never60.89DaysPastDueNotWorse', 'Never90DaysLate', 'IncomeDivBy10', 'IncomeDivBy100', 'IncomeDivBy1000', 'IncomeDivBy5000', 'Weird0999Utilization', 'FullUtilization', 'ExcessUtilization', 'NumberOfTime30.89DaysPastDueNotWorse', 'Never30.89DaysPastDueNotWorse', 'NeverPastDue', 'Log.RevolvingUtilizationTimesLines', 'Log.RevolvingUtilizationOfUnsecuredLines', 'DelinquenciesPerLine', 'MajorDelinquenciesPerLine', 'MinorDelinquenciesPerLine', 'DelinquenciesPerRevolvingLine', 'MajorDelinquenciesPerRevolvingLine', 'MinorDelinquenciesPerRevolvingLine', 'Log.DebtPerLine', 'Log.DebtPerRealEstateLine', 'Log.DebtPerPerson', 'RevolvingLinesPerPerson', 'RealEstateLoansPerPerson', 'YearsOfAgePerDependent', 'Log.MonthlyIncome', 'Log.IncomePerPerson', 'Log.NumberOfTimesPastDue', 'Log.NumberOfTimes90DaysLate', 'Log.NumberOfTime30.59DaysPastDueNotWorse', 'Log.NumberOfTime60.89DaysPastDueNotWorse', 'Log.Ratio90to30.59DaysLate', 'Log.Ratio90to60.89DaysLate', 'AnyOpenCreditLinesOrLoans', 'Log.NumberOfOpenCreditLinesAndLoans', 'Log.NumberOfOpenCreditLinesAndLoansPerPerson', 'Has.Dependents', 'Log.HouseholdSize', 'Log.DebtRatio', 'Log.UnknownIncomeDebtRatio', 'Log.UnknownIncomeDebtRatioPerPerson', 'Log.UnknownIncomeDebtRatioPerLine', 'Log.UnknownIncomeDebtRatioPerRealEstateLine', 'Log.NumberRealEstateLoansOrLines', 'CREDIT_AMNT', 'AGE']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.047754
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.023835
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.055937
+#### Original-Predicted training dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.024578397212079772
+Difference in GFNR between unprivileged and privileged groups
+0.03969710788577747
+#### Original-Predicted validation dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.07545407577858276
+Difference in GFNR between unprivileged and privileged groups
+0.0384385158467826
+#### Original-Predicted testing dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.007479023588628508
+Difference in GFNR between unprivileged and privileged groups
+0.046106613804644404
+Balanced accuracy = 0.5938
+Statistical parity difference = -0.0454
+Disparate impact = 0.9535
+Average odds difference = -0.0145
+Equal opportunity difference = -0.0413
+Theil index = 0.0281
+Profit: 5144573200.0
+Profit Per Loan: 228647.69777777776
+Profit Per EUR: 228.64769777777775
+#### Original-Transformed validation dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.27118925535990634
+Difference in GFNR between unprivileged and privileged groups
+0.021661145192431244
+#### Original-Transformed testing dataset
+Difference in GFPR between unprivileged and privileged groups
+-0.20135123616284023
+Difference in GFNR between unprivileged and privileged groups
+0.028869875058185224
+Balanced accuracy = 0.5032
+Statistical parity difference = -0.0673
+Disparate impact = 0.9327
+Average odds difference = -0.1187
+Equal opportunity difference = -0.0510
+Theil index = 0.0227
+Profit: 5179833200.0
+Profit Per Loan: 230214.8088888889
+Profit Per EUR: 230.21480888888888
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: -15.26%
+Statistical parity difference: 48.19%
+Disparate impact: -2.19%
+Average odds difference: 717.78%
+Equal opportunity difference: 23.50%
+Theil index: -19.28%
+
+Profit Percentage Change: 0.69%
+#### Classification thresholds used for validation and parameter selection

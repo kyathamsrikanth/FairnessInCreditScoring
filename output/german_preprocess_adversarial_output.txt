@@ -1,0 +1,178 @@
+(1000, 62)
+#### Training Dataset shape
+(700, 61)
+#### Favorable and unfavorable labels
+1.0 2.0
+#### Protected attribute names
+['AGE']
+#### Privileged and unprivileged protected attribute values
+[array([1.])] [array([0.])]
+#### Dataset feature names
+['duration', 'installment_rate', 'resident_since', 'num_credits', 'people_maintenance', 'AGE', 'CREDIT_AMNT', 'account_status=X1', 'account_status=X2', 'account_status=X3', 'account_status=X4', 'credit_history=X1', 'credit_history=X2', 'credit_history=X3', 'credit_history=X4', 'credit_history=X5', 'purpose=X1', 'purpose=X10', 'purpose=X2', 'purpose=X3', 'purpose=X4', 'purpose=X5', 'purpose=X6', 'purpose=X7', 'purpose=X8', 'purpose=X9', 'savings=X1', 'savings=X2', 'savings=X3', 'savings=X4', 'savings=X5', 'employment=X1', 'employment=X2', 'employment=X3', 'employment=X4', 'employment=X5', 'status_gender=X1', 'status_gender=X2', 'status_gender=X3', 'status_gender=X4', 'guarantors=X1', 'guarantors=X2', 'guarantors=X3', 'property=X1', 'property=X2', 'property=X3', 'property=X4', 'other_plans=X1', 'other_plans=X2', 'other_plans=X3', 'housing=X1', 'housing=X2', 'housing=X3', 'job=X1', 'job=X2', 'job=X3', 'job=X4', 'phone=X1', 'phone=X2', 'foreign=X1', 'foreign=X2']
+#### Original training dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.122891
+#### Original validation dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.262626
+#### Original test dataset
+Difference in mean outcomes between unprivileged and privileged groups = -0.149883
+#### Scaled dataset - Verify that the scaling does not affect the group label statistics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = -0.122891
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.149883
+epoch 0; iter: 0; batch classifier loss: 0.690056
+epoch 1; iter: 0; batch classifier loss: 0.616931
+epoch 2; iter: 0; batch classifier loss: 0.581447
+epoch 3; iter: 0; batch classifier loss: 0.613184
+epoch 4; iter: 0; batch classifier loss: 0.531214
+epoch 5; iter: 0; batch classifier loss: 0.548008
+epoch 6; iter: 0; batch classifier loss: 0.526039
+epoch 7; iter: 0; batch classifier loss: 0.461435
+epoch 8; iter: 0; batch classifier loss: 0.547108
+epoch 9; iter: 0; batch classifier loss: 0.506073
+epoch 10; iter: 0; batch classifier loss: 0.486386
+epoch 11; iter: 0; batch classifier loss: 0.438355
+epoch 12; iter: 0; batch classifier loss: 0.426324
+epoch 13; iter: 0; batch classifier loss: 0.490897
+epoch 14; iter: 0; batch classifier loss: 0.411239
+epoch 15; iter: 0; batch classifier loss: 0.450836
+epoch 16; iter: 0; batch classifier loss: 0.451416
+epoch 17; iter: 0; batch classifier loss: 0.375481
+epoch 18; iter: 0; batch classifier loss: 0.436720
+epoch 19; iter: 0; batch classifier loss: 0.460050
+epoch 20; iter: 0; batch classifier loss: 0.488308
+epoch 21; iter: 0; batch classifier loss: 0.464137
+epoch 22; iter: 0; batch classifier loss: 0.407026
+epoch 23; iter: 0; batch classifier loss: 0.450927
+epoch 24; iter: 0; batch classifier loss: 0.465004
+epoch 25; iter: 0; batch classifier loss: 0.430024
+epoch 26; iter: 0; batch classifier loss: 0.369282
+epoch 27; iter: 0; batch classifier loss: 0.359172
+epoch 28; iter: 0; batch classifier loss: 0.396574
+epoch 29; iter: 0; batch classifier loss: 0.420396
+epoch 30; iter: 0; batch classifier loss: 0.372732
+epoch 31; iter: 0; batch classifier loss: 0.455024
+epoch 32; iter: 0; batch classifier loss: 0.388696
+epoch 33; iter: 0; batch classifier loss: 0.453862
+epoch 34; iter: 0; batch classifier loss: 0.370075
+epoch 35; iter: 0; batch classifier loss: 0.367744
+epoch 36; iter: 0; batch classifier loss: 0.362384
+epoch 37; iter: 0; batch classifier loss: 0.352759
+epoch 38; iter: 0; batch classifier loss: 0.402446
+epoch 39; iter: 0; batch classifier loss: 0.416686
+epoch 40; iter: 0; batch classifier loss: 0.349004
+epoch 41; iter: 0; batch classifier loss: 0.361872
+epoch 42; iter: 0; batch classifier loss: 0.361713
+epoch 43; iter: 0; batch classifier loss: 0.323650
+epoch 44; iter: 0; batch classifier loss: 0.392798
+epoch 45; iter: 0; batch classifier loss: 0.355643
+epoch 46; iter: 0; batch classifier loss: 0.333339
+epoch 47; iter: 0; batch classifier loss: 0.397655
+epoch 48; iter: 0; batch classifier loss: 0.337968
+epoch 49; iter: 0; batch classifier loss: 0.368731
+#### Plain model - without debiasing - dataset metrics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = -0.179191
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.215457
+#### Plain model - without debiasing - classification metrics
+Test set: Classification accuracy = 0.746667
+Test set: Balanced classification accuracy = 0.677885
+Test set: Disparate impact = 0.726190
+Test set: Equal opportunity difference = -0.272727
+Test set: Average odds difference = -0.136364
+Test set: Theil_index = 0.149843
+epoch 0; iter: 0; batch classifier loss: 0.652534; batch adversarial loss: 0.624955
+epoch 1; iter: 0; batch classifier loss: 0.634038; batch adversarial loss: 0.649879
+epoch 2; iter: 0; batch classifier loss: 0.649549; batch adversarial loss: 0.614060
+epoch 3; iter: 0; batch classifier loss: 0.583233; batch adversarial loss: 0.632177
+epoch 4; iter: 0; batch classifier loss: 0.543053; batch adversarial loss: 0.630138
+epoch 5; iter: 0; batch classifier loss: 0.509074; batch adversarial loss: 0.599270
+epoch 6; iter: 0; batch classifier loss: 0.550936; batch adversarial loss: 0.583127
+epoch 7; iter: 0; batch classifier loss: 0.472469; batch adversarial loss: 0.598520
+epoch 8; iter: 0; batch classifier loss: 0.478364; batch adversarial loss: 0.615542
+epoch 9; iter: 0; batch classifier loss: 0.471947; batch adversarial loss: 0.595120
+epoch 10; iter: 0; batch classifier loss: 0.506519; batch adversarial loss: 0.622194
+epoch 11; iter: 0; batch classifier loss: 0.444189; batch adversarial loss: 0.586239
+epoch 12; iter: 0; batch classifier loss: 0.465892; batch adversarial loss: 0.609455
+epoch 13; iter: 0; batch classifier loss: 0.503945; batch adversarial loss: 0.607195
+epoch 14; iter: 0; batch classifier loss: 0.470361; batch adversarial loss: 0.584640
+epoch 15; iter: 0; batch classifier loss: 0.443182; batch adversarial loss: 0.574910
+epoch 16; iter: 0; batch classifier loss: 0.407890; batch adversarial loss: 0.587824
+epoch 17; iter: 0; batch classifier loss: 0.433127; batch adversarial loss: 0.614093
+epoch 18; iter: 0; batch classifier loss: 0.450421; batch adversarial loss: 0.595353
+epoch 19; iter: 0; batch classifier loss: 0.397514; batch adversarial loss: 0.584090
+epoch 20; iter: 0; batch classifier loss: 0.422915; batch adversarial loss: 0.585681
+epoch 21; iter: 0; batch classifier loss: 0.432761; batch adversarial loss: 0.568681
+epoch 22; iter: 0; batch classifier loss: 0.479171; batch adversarial loss: 0.575294
+epoch 23; iter: 0; batch classifier loss: 0.439196; batch adversarial loss: 0.567242
+epoch 24; iter: 0; batch classifier loss: 0.353311; batch adversarial loss: 0.574510
+epoch 25; iter: 0; batch classifier loss: 0.417325; batch adversarial loss: 0.567567
+epoch 26; iter: 0; batch classifier loss: 0.486489; batch adversarial loss: 0.610617
+epoch 27; iter: 0; batch classifier loss: 0.410548; batch adversarial loss: 0.570744
+epoch 28; iter: 0; batch classifier loss: 0.437105; batch adversarial loss: 0.575606
+epoch 29; iter: 0; batch classifier loss: 0.389351; batch adversarial loss: 0.581142
+epoch 30; iter: 0; batch classifier loss: 0.406775; batch adversarial loss: 0.570177
+epoch 31; iter: 0; batch classifier loss: 0.386902; batch adversarial loss: 0.569183
+epoch 32; iter: 0; batch classifier loss: 0.439241; batch adversarial loss: 0.546146
+epoch 33; iter: 0; batch classifier loss: 0.343265; batch adversarial loss: 0.566995
+epoch 34; iter: 0; batch classifier loss: 0.426212; batch adversarial loss: 0.535897
+epoch 35; iter: 0; batch classifier loss: 0.355942; batch adversarial loss: 0.567946
+epoch 36; iter: 0; batch classifier loss: 0.445196; batch adversarial loss: 0.557919
+epoch 37; iter: 0; batch classifier loss: 0.363689; batch adversarial loss: 0.564249
+epoch 38; iter: 0; batch classifier loss: 0.353528; batch adversarial loss: 0.557361
+epoch 39; iter: 0; batch classifier loss: 0.350570; batch adversarial loss: 0.517992
+epoch 40; iter: 0; batch classifier loss: 0.445286; batch adversarial loss: 0.570738
+epoch 41; iter: 0; batch classifier loss: 0.378667; batch adversarial loss: 0.560957
+epoch 42; iter: 0; batch classifier loss: 0.358501; batch adversarial loss: 0.552341
+epoch 43; iter: 0; batch classifier loss: 0.368158; batch adversarial loss: 0.566134
+epoch 44; iter: 0; batch classifier loss: 0.363499; batch adversarial loss: 0.559251
+epoch 45; iter: 0; batch classifier loss: 0.423374; batch adversarial loss: 0.562955
+epoch 46; iter: 0; batch classifier loss: 0.357924; batch adversarial loss: 0.532340
+epoch 47; iter: 0; batch classifier loss: 0.347877; batch adversarial loss: 0.554917
+epoch 48; iter: 0; batch classifier loss: 0.336757; batch adversarial loss: 0.530618
+epoch 49; iter: 0; batch classifier loss: 0.303285; batch adversarial loss: 0.512113
+#### Plain model - without debiasing - dataset metrics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = -0.179191
+Test set: Difference in mean outcomes between unprivileged and privileged groups = -0.215457
+#### Model - with debiasing - dataset metrics
+Train set: Difference in mean outcomes between unprivileged and privileged groups = 0.015640
+Test set: Difference in mean outcomes between unprivileged and privileged groups = 0.023419
+#### Plain model - without debiasing - classification metrics
+Test set: Classification accuracy = 0.746667
+Test set: Balanced classification accuracy = 0.677885
+Test set: Disparate impact = 0.726190
+Test set: Equal opportunity difference = -0.272727
+Test set: Average odds difference = -0.136364
+Test set: Theil_index = 0.149843
+Balanced accuracy = 0.6779
+Statistical parity difference = -0.2155
+Disparate impact = 0.7262
+Average odds difference = -0.1364
+Equal opportunity difference = -0.2727
+Theil index = 0.1498
+Profit: 2190.4235810598934
+Profit Per Loan: 14.602823873732623
+Profit Per EUR: 71.908471191361
+#### Model - with debiasing - classification metrics
+Test set: Classification accuracy = 0.780000
+Test set: Balanced classification accuracy = 0.707985
+Test set: Disparate impact = 1.030722
+Test set: Equal opportunity difference = 0.051136
+Test set: Average odds difference = 0.096647
+Test set: Theil_index = 0.118662
+Balanced accuracy = 0.7080
+Statistical parity difference = 0.0234
+Disparate impact = 1.0307
+Average odds difference = 0.0966
+Equal opportunity difference = 0.0511
+Theil index = 0.1187
+Profit: 2523.5120978363125
+Profit Per Loan: 16.823413985575417
+Profit Per EUR: 82.84329047467084
+
+Percentage change for transformed data compared to original data:
+Balanced accuracy: 4.44%
+Statistical parity difference: -110.87%
+Disparate impact: 41.94%
+Average odds difference: -170.87%
+Equal opportunity difference: -118.75%
+Theil index: -20.81%
+
+Profit Percentage Change: 15.21%
